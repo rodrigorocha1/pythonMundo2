@@ -23,3 +23,5 @@ else:
           f'Prestação: R$ {prestacao:.2f}\
           nTotal de anos: {totalAnos}\n'
           f'Resultado: Emprestimo aceito')
+
+
