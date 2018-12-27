@@ -11,7 +11,14 @@ totalAnos = int(input('Quantos anos ele vai pagar a casa? '))
 prestacao = valorCasa / (totalAnos * 12) #Valor da casa dividido pelo tempo convertido em meses = prestação
 
 if prestacao >= (salario * 0.30):
-    print(f'Valor da Casa: R$ {valorCasa:.2f}\nSalário: R$ {salario:.2f}\nPrestação: R$ {prestacao:.2f}\nTotal de anos: {totalAnos}\nResultado: Emprestimo negado')
+    print(f'Valor da Casa: R$ {valorCasa:.2f}\n'
+          f'Salário: R$ {salario:.2f}\n'
+          f'Prestação: R$ {prestacao:.2f}\n'
+          f'Total de anos: {totalAnos}\n'
+          f'Resultado: Emprestimo negado')
 else:
-    print(
-        f'Valor da Casa: R$ {valorCasa:.2f}\nSalário: R$ {salario:.2f}\nPrestação: R$ {prestacao:.2f}\nTotal de anos: {totalAnos}\nResultado: Emprestimo aceito')
+    print(f'Valor da Casa: R$ {valorCasa:.2f}\n'
+          f'Salário: R$ {salario:.2f}\n'
+          f'Prestação: R$ {prestacao:.2f}\
+          nTotal de anos: {totalAnos}\n'
+          f'Resultado: Emprestimo aceito')
