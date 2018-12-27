@@ -15,6 +15,3 @@ if prestacao >= (salario * 0.30):
 else:
     print(
         f'Valor da Casa: R$ {valorCasa:.2f}\nSalário: R$ {salario:.2f}\nPrestação: R$ {prestacao:.2f}\nTotal de anos: {totalAnos}\nResultado: Emprestimo aceito')
-
-
-
